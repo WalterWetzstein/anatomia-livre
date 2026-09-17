@@ -18,7 +18,7 @@ function renderCatalog(){
   for(const card of cards){
    const b=el('button',`anatomy-card ${!hasModel(card)?'unavailable':''}`);b.dataset.card=card.id;b.setAttribute('aria-label',`${card.name} — ${status(card)}`);
    const visual=el('div','card-visual');
-   if(hasModel(card)){const img=el('img');img.src=`/thumbnails/${card.id}.webp`;img.alt='';img.loading='lazy';img.width=480;img.height=340;visual.append(img);}else{visual.append(el('span','placeholder-symbol','◌'),el('span','placeholder-label','MODELO A INCLUIR'));}
+   if(hasModel(card)){const img=el('img');img.src=`${import.meta.env.BASE_URL}thumbnails/${card.id}.webp`;img.alt='';img.loading='lazy';img.width=480;img.height=340;visual.append(img);}else{visual.append(el('span','placeholder-symbol','◌'),el('span','placeholder-label','MODELO A INCLUIR'));}
    visual.append(el('span',`card-status ${!hasModel(card)?'pending':card.partial?'partial':''}`,status(card)));
    const copy=el('div','card-copy');copy.append(el('h3','',card.name));if(card.aliases?.length)copy.append(el('p','',card.aliases.join(' · ')));copy.append(el('span','card-arrow',hasModel(card)?'↗':'+'));b.append(visual,copy);
    b.onclick=()=>{if(hasModel(card)){catalogScroll=window.scrollY;location.hash=`modelo/${card.id}`;}else{$('unavailable-name').textContent=card.name;$('unavailable-aliases').textContent=(card.aliases||[]).join(' · ');$('unavailable-dialog').showModal();}};

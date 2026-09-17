@@ -28,7 +28,7 @@ async function init(){
  controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=.005;controls.maxDistance=8;controls.addEventListener('change',draw);
  scene.add(new THREE.HemisphereLight(0xffffff,0x526272,2.5));const key=new THREE.DirectionalLight(0xffeedb,3);key.position.set(2,3,4);scene.add(key);const fill=new THREE.DirectionalLight(0xc3f7ef,2);fill.position.set(-2,1,-3);scene.add(fill);
  new ResizeObserver(resize).observe($('canvas'));resize();
- const [model,data]=await Promise.all([new GLTFLoader().loadAsync('/models/z-anatomy-1.4.0-full-body.glb'),fetch('/models/z-anatomy-1.4.0-manifest.json').then(r=>{if(!r.ok)throw Error('Manifesto indisponível');return r.json();})]);manifest=data;
+ const base=import.meta.env.BASE_URL;const [model,data]=await Promise.all([new GLTFLoader().loadAsync(`${base}models/z-anatomy-1.4.0-full-body.glb`),fetch(`${base}models/z-anatomy-1.4.0-manifest.json`).then(r=>{if(!r.ok)throw Error('Manifesto indisponível');return r.json();})]);manifest=data;
  model.scene.traverse(m=>{if(!m.isMesh)return;m.visible=false;const source=m.userData.sourceName||m.name;m.userData.sourceName=source;m.userData.label=organName(source)||translated(source);m.material=new THREE.MeshStandardMaterial({color:materialColor(m),roughness:.7});all.push(m);if(m.userData.anatomySystem==='skeletal')skeleton.push(m);});scene.add(model.scene);
  const ray=new THREE.Raycaster(),pointers=new Map();let moved=false;
  renderer.domElement.addEventListener('pointerdown',e=>{pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});moved=pointers.size>1;});

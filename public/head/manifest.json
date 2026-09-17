@@ -1,0 +1,1569 @@
+{
+  "bones": [
+    {
+      "sourceName": "Parietal bone.r"
+    },
+    {
+      "sourceName": "Parietal bone.l"
+    },
+    {
+      "sourceName": "Frontal bone"
+    },
+    {
+      "sourceName": "Occipital bone"
+    },
+    {
+      "sourceName": "Sphenoid bone"
+    },
+    {
+      "sourceName": "Temporal bone.r"
+    },
+    {
+      "sourceName": "Ethmoid bone"
+    },
+    {
+      "sourceName": "Inferior nasal concha bone.r"
+    },
+    {
+      "sourceName": "Lacrimal bone.r"
+    },
+    {
+      "sourceName": "Nasal bone.r"
+    },
+    {
+      "sourceName": "Maxilla.r"
+    },
+    {
+      "sourceName": "Palatine bone.r"
+    },
+    {
+      "sourceName": "Zygomatic bone.r"
+    },
+    {
+      "sourceName": "Mandible"
+    },
+    {
+      "sourceName": "Malleus.r"
+    },
+    {
+      "sourceName": "Incus.r"
+    },
+    {
+      "sourceName": "Stapes.r"
+    },
+    {
+      "sourceName": "Upper medial incisor.r"
+    },
+    {
+      "sourceName": "Upper lateral incisor.r"
+    },
+    {
+      "sourceName": "Upper canine.r"
+    },
+    {
+      "sourceName": "Lower medial incisor.r"
+    },
+    {
+      "sourceName": "Lower lateral incisor.r"
+    },
+    {
+      "sourceName": "Lower canine.r"
+    },
+    {
+      "sourceName": "Upper first premolar.r"
+    },
+    {
+      "sourceName": "Upper second premolar.r"
+    },
+    {
+      "sourceName": "Upper first molar tooth.r"
+    },
+    {
+      "sourceName": "Upper second molar tooth.r"
+    },
+    {
+      "sourceName": "Lower first premolar.r"
+    },
+    {
+      "sourceName": "Lower second premolar.r"
+    },
+    {
+      "sourceName": "Lower first molar tooth.r"
+    },
+    {
+      "sourceName": "Lower second molar tooth.r"
+    },
+    {
+      "sourceName": "Temporal bone.l"
+    },
+    {
+      "sourceName": "Inferior nasal concha bone.l"
+    },
+    {
+      "sourceName": "Lacrimal bone.l"
+    },
+    {
+      "sourceName": "Nasal bone.l"
+    },
+    {
+      "sourceName": "Vomer"
+    },
+    {
+      "sourceName": "Maxilla.l"
+    },
+    {
+      "sourceName": "Palatine bone.l"
+    },
+    {
+      "sourceName": "Zygomatic bone.l"
+    },
+    {
+      "sourceName": "Malleus.l"
+    },
+    {
+      "sourceName": "Incus.l"
+    },
+    {
+      "sourceName": "Stapes.l"
+    },
+    {
+      "sourceName": "Upper medial incisor.l"
+    },
+    {
+      "sourceName": "Upper lateral incisor.l"
+    },
+    {
+      "sourceName": "Upper canine.l"
+    },
+    {
+      "sourceName": "Lower medial incisor.l"
+    },
+    {
+      "sourceName": "Lower lateral incisor.l"
+    },
+    {
+      "sourceName": "Lower canine.l"
+    },
+    {
+      "sourceName": "Upper first premolar.l"
+    },
+    {
+      "sourceName": "Upper second premolar.l"
+    },
+    {
+      "sourceName": "Upper first molar tooth.l"
+    },
+    {
+      "sourceName": "Upper second molar tooth.l"
+    },
+    {
+      "sourceName": "Lower first premolar.l"
+    },
+    {
+      "sourceName": "Lower second premolar.l"
+    },
+    {
+      "sourceName": "Lower first molar tooth.l"
+    },
+    {
+      "sourceName": "Lower second molar tooth.l"
+    }
+  ],
+  "muscles": [
+    {
+      "sourceName": "Lateral rectus muscle.l"
+    },
+    {
+      "sourceName": "Lateral rectus muscle.r"
+    },
+    {
+      "sourceName": "Superior oblique muscle.l"
+    },
+    {
+      "sourceName": "Superior oblique muscle.r"
+    },
+    {
+      "sourceName": "Common tendinous ring.r"
+    },
+    {
+      "sourceName": "Inferior oblique muscle.r"
+    },
+    {
+      "sourceName": "Inferior rectus muscle.r"
+    },
+    {
+      "sourceName": "Inferior tarsus.r"
+    },
+    {
+      "sourceName": "Levator palpebrae superioris.r"
+    },
+    {
+      "sourceName": "Medial rectus muscle.r"
+    },
+    {
+      "sourceName": "Superior rectus muscle.r"
+    },
+    {
+      "sourceName": "Superior tarsus.r"
+    },
+    {
+      "sourceName": "Trochlea of superior oblique muscle.r"
+    },
+    {
+      "sourceName": "Common tendinous ring.l"
+    },
+    {
+      "sourceName": "Inferior oblique muscle.l"
+    },
+    {
+      "sourceName": "Inferior rectus muscle.l"
+    },
+    {
+      "sourceName": "Inferior tarsus.l"
+    },
+    {
+      "sourceName": "Levator palpebrae superioris.l"
+    },
+    {
+      "sourceName": "Medial rectus muscle.l"
+    },
+    {
+      "sourceName": "Superior rectus muscle.l"
+    },
+    {
+      "sourceName": "Superior tarsus.l"
+    },
+    {
+      "sourceName": "Trochlea of superior oblique muscle.l"
+    },
+    {
+      "sourceName": "Frontalis muscle.r"
+    },
+    {
+      "sourceName": "Occipitalis muscle.r"
+    },
+    {
+      "sourceName": "Epicranial aponeurosis.r"
+    },
+    {
+      "sourceName": "Frontalis muscle.l"
+    },
+    {
+      "sourceName": "Occipitalis muscle.l"
+    },
+    {
+      "sourceName": "Epicranial aponeurosis.l"
+    },
+    {
+      "sourceName": "Temporoparietalis muscle.r"
+    },
+    {
+      "sourceName": "Temporoparietalis muscle.l"
+    },
+    {
+      "sourceName": "Nasalis muscle.r"
+    },
+    {
+      "sourceName": "Nasalis muscle.l"
+    },
+    {
+      "sourceName": "Orbital part of orbicularis oculi.r"
+    },
+    {
+      "sourceName": "Palpebral part of orbicularis oculi.r"
+    },
+    {
+      "sourceName": "Orbital part of orbicularis oculi.l"
+    },
+    {
+      "sourceName": "Palpebral part of orbicularis oculi.l"
+    },
+    {
+      "sourceName": "Orbicularis oris muscle.r"
+    },
+    {
+      "sourceName": "Orbicularis oris muscle.l"
+    },
+    {
+      "sourceName": "Zygomaticus major muscle.r"
+    },
+    {
+      "sourceName": "Corrugator supercilii.r"
+    },
+    {
+      "sourceName": "Depressor anguli oris.r"
+    },
+    {
+      "sourceName": "Depressor labii inferioris.r"
+    },
+    {
+      "sourceName": "Levator anguli oris.r"
+    },
+    {
+      "sourceName": "Procerus muscle.r"
+    },
+    {
+      "sourceName": "Risorius muscle.r"
+    },
+    {
+      "sourceName": "Zygomaticus minor muscle.r"
+    },
+    {
+      "sourceName": "Levator labii superioris.r"
+    },
+    {
+      "sourceName": "Depressor septi nasi.r"
+    },
+    {
+      "sourceName": "Mentalis muscle.r"
+    },
+    {
+      "sourceName": "Levator nasolabialis.r"
+    },
+    {
+      "sourceName": "Bucinator.r"
+    },
+    {
+      "sourceName": "Zygomaticus major muscle.l"
+    },
+    {
+      "sourceName": "Corrugator supercilii.l"
+    },
+    {
+      "sourceName": "Depressor anguli oris.l"
+    },
+    {
+      "sourceName": "Depressor labii inferioris.l"
+    },
+    {
+      "sourceName": "Levator anguli oris.l"
+    },
+    {
+      "sourceName": "Procerus muscle.l"
+    },
+    {
+      "sourceName": "Risorius muscle.l"
+    },
+    {
+      "sourceName": "Zygomaticus minor muscle.l"
+    },
+    {
+      "sourceName": "Levator labii superioris.l"
+    },
+    {
+      "sourceName": "Depressor septi nasi.l"
+    },
+    {
+      "sourceName": "Mentalis muscle.l"
+    },
+    {
+      "sourceName": "Levator nasolabialis.l"
+    },
+    {
+      "sourceName": "Bucinator.l"
+    },
+    {
+      "sourceName": "Superficial part of masseter.r"
+    },
+    {
+      "sourceName": "Deep part of masseter.r"
+    },
+    {
+      "sourceName": "Superficial part of masseter.l"
+    },
+    {
+      "sourceName": "Deep part of masseter.l"
+    },
+    {
+      "sourceName": "Medial pterygoid muscle.r"
+    },
+    {
+      "sourceName": "Medial pterygoid muscle.l"
+    },
+    {
+      "sourceName": "Inferior head of lateral pterygoid muscle.r"
+    },
+    {
+      "sourceName": "Superior head of lateral pterygoid muscle.r"
+    },
+    {
+      "sourceName": "Inferior head of lateral pterygoid muscle.l"
+    },
+    {
+      "sourceName": "Superior head of lateral pterygoid muscle.l"
+    },
+    {
+      "sourceName": "Temporalis muscle.r"
+    },
+    {
+      "sourceName": "Temporalis muscle.l"
+    }
+  ],
+  "senses": [
+    {
+      "sourceName": "Lacrimal gland.r"
+    },
+    {
+      "sourceName": "Lacrimal gland.l"
+    },
+    {
+      "sourceName": "Tympanic membrane.r"
+    },
+    {
+      "sourceName": "Tympanic membrane.l"
+    },
+    {
+      "sourceName": "Vestibule.r"
+    },
+    {
+      "sourceName": "Vestibule.l"
+    },
+    {
+      "sourceName": "Cochlea.r"
+    },
+    {
+      "sourceName": "Cochlea.l"
+    },
+    {
+      "sourceName": "Retina.r"
+    },
+    {
+      "sourceName": "Retina.l"
+    },
+    {
+      "sourceName": "Sclera.r"
+    },
+    {
+      "sourceName": "Sclera.l"
+    },
+    {
+      "sourceName": "Lens.r"
+    },
+    {
+      "sourceName": "Lens.l"
+    },
+    {
+      "sourceName": "Iris.r"
+    },
+    {
+      "sourceName": "Iris.l"
+    },
+    {
+      "sourceName": "Cornea.r"
+    },
+    {
+      "sourceName": "Cornea.l"
+    }
+  ],
+  "viscera": [
+    {
+      "sourceName": "Parotid gland.r"
+    },
+    {
+      "sourceName": "Parotid gland.l"
+    },
+    {
+      "sourceName": "Sublingual gland.l"
+    },
+    {
+      "sourceName": "Sublingual gland.r"
+    },
+    {
+      "sourceName": "Submandibular gland.l"
+    },
+    {
+      "sourceName": "Submandibular gland.r"
+    },
+    {
+      "sourceName": "Tongue"
+    },
+    {
+      "sourceName": "Adenohypophysis"
+    },
+    {
+      "sourceName": "Neurohypophysis"
+    },
+    {
+      "sourceName": "Pineal gland"
+    }
+  ],
+  "brain": [
+    {
+      "sourceName": "Medulla oblongata.l",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Medulla oblongata.r",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Midbrain.l",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Midbrain.r",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Pons.l",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Pons.r",
+      "organLabel": "Tronco encefálico"
+    },
+    {
+      "sourceName": "Anterior quadrangular lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Anterior quadrangular lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Base of peduncle.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Base of peduncle.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Biventral lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Biventral lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Central lobule",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Culmen",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Declive",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Flocculus.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Flocculus.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Folium of vermis",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Gracile lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Gracile lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Inferior semilunar lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Inferior semilunar lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Lingula of cerebellum",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Nodule of vermis",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Peduncle of flocculus.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Peduncle of flocculus.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Posterior quadrangular lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Posterior quadrangular lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Pyramis of vermis",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Superior cerebellar peduncle.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Superior cerebellar peduncle.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Superior semilunar lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Superior semilunar lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Tonsil of cerebellum.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Tonsil of cerebellum.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Tuber of vermis",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Uvula of vermis",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Wing of central lobule.l",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Wing of central lobule.r",
+      "organLabel": "Cerebelo"
+    },
+    {
+      "sourceName": "Amygdaloid body.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Amygdaloid body.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Angular gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Angular gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Anterior commissure",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Anterior occipital sulcus*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Anterior occipital sulcus*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Calcarine sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Calcarine sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Caudate nucleus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Caudate nucleus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Central sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Central sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Middle anterior part).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Middle anterior part).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Middle posterior part).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Middle posterior part).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Posterior dorsal part).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus and sulcus (Posterior dorsal part).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus (Posteroventral part*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate gyrus (Posteroventral part*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate sulcus (Marginal part*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cingulate sulcus (Marginal part*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Circular sulcus of insula.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Circular sulcus of insula.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Collateral sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Collateral sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Corpus callosum",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cuneus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Cuneus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Fornix.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Fornix.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Globus pallidus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Globus pallidus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Habenula",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Hippocampal commissure",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Hippocampus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Hippocampus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Hypothalamus",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior frontal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior frontal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior occipital gyrus and sulcus*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior occipital gyrus and sulcus*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior temporal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior temporal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior temporal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Inferior temporal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Insula (Subcentral gyrus and ant. and post. sulci*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Insula (Subcentral gyrus and ant. and post. sulci*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Intraparietal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Intraparietal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-ant-Horizont.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-ant-Horizont.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-ant-Vertical.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-ant-Vertical.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-post.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lat_Fis-post.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral geniculate body.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral geniculate body.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral occipital gyrus (Middle occipital gyrus*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral occipital gyrus (Middle occipital gyrus*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral occipitotemporal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral occipitotemporal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral ventricle.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lateral ventricle.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lentiform nucleus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lentiform nucleus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lingual gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lingual gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lunate sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Lunate sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Mamillary body.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Mamillary body.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Medial geniculate body.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Medial geniculate body.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Medial occipitotemporal gyrus (Parahippocampal*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Medial occipitotemporal gyrus (Parahippocampal*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Middle frontal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Middle frontal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Middle temporal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Middle temporal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Occipital pole.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Occipital pole.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Occipitotemporal sulcus (Lateral part*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Occipitotemporal sulcus (Lateral part*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Olfactory sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Olfactory sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Opercular part of inferior frontal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Opercular part of inferior frontal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Optic chiasm.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Optic chiasm.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Optic tract.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Optic tract.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital gyri (Frontomarginal gyrus and sulcus*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital gyri (Frontomarginal gyrus and sulcus*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital gyri.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital gyri.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital part of  inferior frontal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital part of  inferior frontal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital sulci (H-shaped orbital sulci*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital sulci (H-shaped orbital sulci*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital sulci (Lateral Orbital sulcus*).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Orbital sulci (Lateral Orbital sulcus*).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Paracentral gyrus and sulcus*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Paracentral gyrus and sulcus*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Paracentral sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Paracentral sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Parieto-occipital sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Parieto-occipital sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Postcentral gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Postcentral gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Postcentral sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Postcentral sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Posterior commissure",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Posterior transverse collateral sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Posterior transverse collateral sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral sulcus (inferior part)*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral sulcus (inferior part)*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral sulcus (Superior part)*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precentral sulcus (Superior part)*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precuneus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Precuneus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Putamen.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Putamen.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Septal nuclei",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Septum pellucidum",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Straight gyrus (Gyrus rectus).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Straight gyrus (Gyrus rectus).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Stria medullaris thalami.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Stria medullaris thalami.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Stria terminalis.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Stria terminalis.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Subparietal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Subparietal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Sulcus interm_prim-Jensen.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Sulcus interm_prim-Jensen.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior frontal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior frontal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior frontal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior frontal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior occipital gyri.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior occipital gyri.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior parietal lobule.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior parietal lobule.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior temporal gyrus (Lateral part).l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior temporal gyrus (Lateral part).r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior temporal sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Superior temporal sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Supramarginal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Supramarginal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Temporal plane.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Temporal plane.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Temporal pole.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Temporal pole.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Thalamus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Thalamus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Third ventricle",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse frontopolar gyrus and sulcus*.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse frontopolar gyrus and sulcus*.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse occipital sulcus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse occipital sulcus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse temporal gyri.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Transverse temporal gyri.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Triangular part of inferior frontal gyrus.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "Triangular part of inferior frontal gyrus.r",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "White matter of telencephalon.l",
+      "organLabel": "Cérebro"
+    },
+    {
+      "sourceName": "White matter of telencephalon.r",
+      "organLabel": "Cérebro"
+    }
+  ],
+  "face": [
+    {
+      "sourceName": "Angle of mouth.l"
+    },
+    {
+      "sourceName": "Angle of mouth.r"
+    },
+    {
+      "sourceName": "Anterior notch of auricle.l"
+    },
+    {
+      "sourceName": "Anterior notch of auricle.r"
+    },
+    {
+      "sourceName": "Antihelix.l"
+    },
+    {
+      "sourceName": "Antihelix.r"
+    },
+    {
+      "sourceName": "Antitragus.l"
+    },
+    {
+      "sourceName": "Antitragus.r"
+    },
+    {
+      "sourceName": "Apex of auricle.l"
+    },
+    {
+      "sourceName": "Apex of auricle.r"
+    },
+    {
+      "sourceName": "Auricular region.l"
+    },
+    {
+      "sourceName": "Auricular region.r"
+    },
+    {
+      "sourceName": "Auricular tubercle.l"
+    },
+    {
+      "sourceName": "Auricular tubercle.r"
+    },
+    {
+      "sourceName": "Buccal region.l"
+    },
+    {
+      "sourceName": "Buccal region.r"
+    },
+    {
+      "sourceName": "Cavity of concha.l"
+    },
+    {
+      "sourceName": "Cavity of concha.r"
+    },
+    {
+      "sourceName": "Concha of auricle.l"
+    },
+    {
+      "sourceName": "Concha of auricle.r"
+    },
+    {
+      "sourceName": "Crura of antihelix.l"
+    },
+    {
+      "sourceName": "Crura of antihelix.r"
+    },
+    {
+      "sourceName": "Cymba conchae.l"
+    },
+    {
+      "sourceName": "Cymba conchae.r"
+    },
+    {
+      "sourceName": "Eminentia conchae.l"
+    },
+    {
+      "sourceName": "Eminentia conchae.r"
+    },
+    {
+      "sourceName": "Eminentia fossae triangularis.l"
+    },
+    {
+      "sourceName": "Eminentia fossae triangularis.r"
+    },
+    {
+      "sourceName": "Eminentia scaphae.l"
+    },
+    {
+      "sourceName": "Eminentia scaphae.r"
+    },
+    {
+      "sourceName": "Eyelashes.l"
+    },
+    {
+      "sourceName": "Eyelashes.r"
+    },
+    {
+      "sourceName": "Fossa antihelica.l"
+    },
+    {
+      "sourceName": "Fossa antihelica.r"
+    },
+    {
+      "sourceName": "Frontal region.l"
+    },
+    {
+      "sourceName": "Frontal region.r"
+    },
+    {
+      "sourceName": "Hairs of eyebrow.l"
+    },
+    {
+      "sourceName": "Hairs of eyebrow.r"
+    },
+    {
+      "sourceName": "Hairs of head"
+    },
+    {
+      "sourceName": "Helix.l"
+    },
+    {
+      "sourceName": "Helix.r"
+    },
+    {
+      "sourceName": "Infra-orbital region.l"
+    },
+    {
+      "sourceName": "Infra-orbital region.r"
+    },
+    {
+      "sourceName": "Intertragic incisure.l"
+    },
+    {
+      "sourceName": "Intertragic incisure.r"
+    },
+    {
+      "sourceName": "Labial commissure.l"
+    },
+    {
+      "sourceName": "Labial commissure.r"
+    },
+    {
+      "sourceName": "Lobule of auricle.l"
+    },
+    {
+      "sourceName": "Lobule of auricle.r"
+    },
+    {
+      "sourceName": "Mastoid region.l"
+    },
+    {
+      "sourceName": "Mastoid region.r"
+    },
+    {
+      "sourceName": "Mental region.l"
+    },
+    {
+      "sourceName": "Mental region.r"
+    },
+    {
+      "sourceName": "Mentolabial sulcus.l"
+    },
+    {
+      "sourceName": "Mentolabial sulcus.r"
+    },
+    {
+      "sourceName": "Nasal region.l"
+    },
+    {
+      "sourceName": "Nasal region.r"
+    },
+    {
+      "sourceName": "Nasolabial sulcus.l"
+    },
+    {
+      "sourceName": "Nasolabial sulcus.r"
+    },
+    {
+      "sourceName": "Occipital region.l"
+    },
+    {
+      "sourceName": "Occipital region.r"
+    },
+    {
+      "sourceName": "Oral region.l"
+    },
+    {
+      "sourceName": "Oral region.r"
+    },
+    {
+      "sourceName": "Orbital region.l"
+    },
+    {
+      "sourceName": "Orbital region.r"
+    },
+    {
+      "sourceName": "Parietal region.l"
+    },
+    {
+      "sourceName": "Parietal region.r"
+    },
+    {
+      "sourceName": "Parotideomasseteric region.l"
+    },
+    {
+      "sourceName": "Parotideomasseteric region.r"
+    },
+    {
+      "sourceName": "Posterior auricular groove.l"
+    },
+    {
+      "sourceName": "Posterior auricular groove.r"
+    },
+    {
+      "sourceName": "Scapha.l"
+    },
+    {
+      "sourceName": "Scapha.r"
+    },
+    {
+      "sourceName": "Temporal region.l"
+    },
+    {
+      "sourceName": "Temporal region.r"
+    },
+    {
+      "sourceName": "Tragus.l"
+    },
+    {
+      "sourceName": "Tragus.r"
+    },
+    {
+      "sourceName": "Triangular fossa.l"
+    },
+    {
+      "sourceName": "Triangular fossa.r"
+    },
+    {
+      "sourceName": "Zygomatic region.l"
+    },
+    {
+      "sourceName": "Zygomatic region.r"
+    }
+  ]
+}

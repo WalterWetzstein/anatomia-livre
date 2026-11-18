@@ -12,7 +12,7 @@ const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless
 const page=await browser.newPage({viewport:{width:1440,height:1000},hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
  await page.goto('http://localhost:5173');await page.locator('[data-scope="head"]').click();await page.waitForSelector('body[data-ready="face"]',{timeout:60000});await page.screenshot({path:'/tmp/head-adult-face.png'});await page.locator('[data-model="bones"]').click();await page.waitForSelector('body[data-ready="bones"]',{timeout:60000});
- assert.equal(await page.locator('[data-model]').count(),4);assert.equal(await page.locator('#structure-list button').count(),56);
+ assert.equal(await page.locator('[data-model]:visible').count(),4);assert.equal(await page.locator('#structure-list button').count(),56);
  await page.screenshot({path:'/tmp/head-bones.png'});
  const canvas=page.locator('canvas'),bounds=await canvas.boundingBox();
  let picked=false;for(const[x,y]of [[.5,.3],[.5,.4],[.6,.45],[.4,.45]]){await page.mouse.click(bounds.x+bounds.width*x,bounds.y+bounds.height*y);if((await page.locator('#selected-name').textContent())!=='Toque no modelo'){picked=true;break;}}assert(picked,'Picking skull should select a bone');

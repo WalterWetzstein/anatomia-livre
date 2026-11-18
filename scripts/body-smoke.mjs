@@ -5,7 +5,7 @@ const page=await browser.newPage({viewport:{width:1440,height:1100}}),errors=[];
 page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(`${r.status()} ${r.url()}`);});
 try{
  await page.goto(process.env.ANATOMIA_URL||'http://localhost:5173/anatomia-livre/');
- await page.waitForSelector('body[data-scope="body"][data-ready="bones"]',{timeout:90000});
+ await page.locator('[data-model=bones]').click();await page.waitForSelector('body[data-scope="body"][data-ready="bones"]',{timeout:90000});
  assert.equal(await page.locator('[data-model=face]').isVisible(),false);
  assert((await page.locator('#structure-list button').count())>200);
  await page.screenshot({path:'/tmp/anatomia-body-bones.png'});
@@ -27,6 +27,6 @@ try{
  for(const [width,height]of [[800,1280],[390,844],[320,740]]){await page.setViewportSize({width,height});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Overflow ${width}`);}
  await page.setViewportSize({width:390,height:844});await page.screenshot({path:'/tmp/anatomia-body-phone.png',fullPage:true});
  await page.locator('[data-scope=head]').click();await page.waitForSelector('body[data-scope="head"][data-ready="face"]',{timeout:90000});
- await page.locator('[data-scope=body]').click();await page.waitForSelector('body[data-scope="body"][data-ready="bones"]',{timeout:90000});
+ await page.locator('[data-scope=body]').click();await page.waitForSelector('body[data-scope="body"][data-ready="surface"]',{timeout:90000});
  assert.deepEqual(errors,[]);console.log('PASS: corpo inteiro, ossos dos membros, músculos, órgãos e coração, regiões, seleção, foco, ocultar/desfazer, troca de área e telas de 320 a 1440px.');
 }finally{await browser.close();}

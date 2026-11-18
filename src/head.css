@@ -11,3 +11,7 @@
 
 .sex-selector{display:flex;align-items:center;gap:8px;margin:0 0 16px}.sex-selector>span{font-size:11px;color:var(--muted);margin-right:8px}.sex-selector button{font-size:12px;background:transparent}.sex-selector button.active{background:#244a45;border-color:#78cbb5;color:#caf5e8}.model-tabs button{min-width:0}body[data-scope="body"] .workspace{height:calc(100dvh - 470px)}@media(max-width:740px){.sex-selector{flex-wrap:wrap}.sex-selector>span{width:100%;margin:0}.sex-selector button{flex:1}.model-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.model-tabs button{justify-content:flex-start;padding:12px}.model-tabs small{display:block;font-size:9px}.model-tabs .tab-icon{font-size:22px}body[data-scope="body"] .workspace{height:auto}}
 #coverage,.selection{flex-shrink:0}@media(max-width:740px){.workspace aside{max-height:none}#structure-list{flex:none;max-height:240px}#coverage{margin-bottom:0}}
+
+body[data-scope="body"]:has(#build-selector:not([hidden])) .workspace{height:calc(100dvh - 530px)}@media(max-width:740px){body[data-scope="body"]:has(#build-selector:not([hidden])) .workspace{height:auto}}
+
+.organ-option{display:flex;align-items:center;gap:8px}.organ-option input{width:17px;min-height:17px;accent-color:var(--mint)}body[data-scope="body"]:has(#organ-controls:not([hidden])) .workspace{height:calc(100dvh - 530px)}@media(max-width:740px){body[data-scope="body"]:has(#organ-controls:not([hidden])) .workspace{height:auto}.organ-option{width:100%}}

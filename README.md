@@ -49,3 +49,13 @@ O catálogo da versão anterior foi preservado em `catalog.html` e seus arquivos
 `npm run test:sex` verifica ambos os corpos por fora, seleção de regiões, órgãos femininos, troca de sistemas e sexo e telas de 320 a 1440 px. O atlas de referência carrega aproximadamente 8 MB por corpo no primeiro acesso. O teste também aceita `ANATOMIA_URL`.
 
 Na vista **Corpo por fora**, os dois modelos usam camiseta e shorts opacos. As roupas acompanham os filtros de região, isolamento e ocultação da pele. A pele tem material fosco, variação suave de cor, olhos com íris e iluminação mais suave. As roupas são pré-calculadas em `clothes-male.glb` e `clothes-female.glb` (aproximadamente 211 KB por corpo), sem cálculo de caimento no aparelho. Para reproduzir: `node scripts/bake-clothes.mjs`.
+
+Na aparência externa, **Porte** oferece personagens adultos fictícios nas opções **Esguio** (padrão) e **Regular**, para ambos os sexos. A variação é ilustrativa, sem peso estimado, sem derivação de fotografias e sem alterar os modelos internos de referência. Camiseta e shorts acompanham as proporções.
+
+## Revisão da visualização de órgãos
+
+Os pulmões usam as superfícies lobares da coleção Z-Anatomy já licenciada; as ramificações internas permanecem no grupo Brônquios. Coração, fígado, estômago, rins, pâncreas, vias urinárias e glândulas também usam as superfícies originais disponíveis, com rótulos agrupados por órgão. Encéfalo, intestinos, baço e órgãos femininos específicos são preservados da coleção de referência. Membranas e segmentações sobrepostas deixam de encobrir a vista principal; seus arquivos de origem continuam preservados. As glândulas mamárias são opcionais na vista geral e aparecem no filtro Reprodutor.
+
+O seletor Sistema filtra os órgãos sem deslocá-los. A opção de transparência dos pulmões permite observar o coração. O enquadramento, a busca, o isolamento e os filtros regionais continuam disponíveis.
+
+Os órgãos comuns do modelo feminino são alinhados aos limites ósseos do tórax e da pelve da referência feminina, com interpolação entre os marcos, conforme `src/organ-view.js`. Essa adaptação é ilustrativa e ainda requer revisão anatômica especializada; os modelos não representam todas as variações individuais. Referência para organização dos pulmões: https://openstax.org/books/anatomy-and-physiology-2e/pages/22-2-the-lungs .

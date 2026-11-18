@@ -6,7 +6,7 @@ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.statu
 async function ready(model,sex){await page.waitForSelector(`body[data-ready="${model}"][data-sex="${sex}"]`,{timeout:120000});}
 try{
  await page.goto(process.env.ANATOMIA_URL||'http://localhost:5173/anatomia-livre/');await ready('surface','male');
- assert.match(await page.locator('#model-title').textContent(),/masculino/);assert((await page.locator('#structure-list button').count())>=6);await page.screenshot({path:'/tmp/anatomia-surface-male.png'});
+ assert.match(await page.locator('#model-title').textContent(),/masculino/);assert.match(await page.locator('#coverage').textContent(),/camiseta e shorts/);assert((await page.locator('#structure-list button').count())>=6);await page.screenshot({path:'/tmp/anatomia-surface-male.png'});
  await page.locator('#back').click();assert.equal(await page.locator('#orientation').textContent(),'Vista de trás');await page.screenshot({path:'/tmp/anatomia-surface-male-back.png'});
  await page.locator('#region').selectOption('lower');assert.equal(await page.locator('#structure-list button').count(),2);await page.locator('#structure-list button').first().click();await page.locator('#isolate').click();await page.locator('#undo').click();await page.locator('#region').selectOption('all');
  await page.locator('[data-sex=female]').click();await ready('surface','female');assert.match(await page.locator('#model-title').textContent(),/feminino/);await page.screenshot({path:'/tmp/anatomia-surface-female.png'});

@@ -47,3 +47,5 @@ Z-Anatomy / BodyParts3D, com exportações de `Liyucheng1997/242_lab-human-anato
 O catálogo da versão anterior foi preservado em `catalog.html` e seus arquivos de origem, sem interferir na tela principal do atlas.
 
 `npm run test:sex` verifica ambos os corpos por fora, seleção de regiões, órgãos femininos, troca de sistemas e sexo e telas de 320 a 1440 px. O atlas de referência carrega aproximadamente 8 MB por corpo no primeiro acesso. O teste também aceita `ANATOMIA_URL`.
+
+Na vista **Corpo por fora**, os dois modelos usam camiseta e shorts opacos. As roupas acompanham os filtros de região, isolamento e ocultação da pele. A pele tem material fosco, variação suave de cor, olhos com íris e iluminação mais suave. As roupas são pré-calculadas em `clothes-male.glb` e `clothes-female.glb` (aproximadamente 211 KB por corpo), sem cálculo de caimento no aparelho. Para reproduzir: `node scripts/bake-clothes.mjs`.

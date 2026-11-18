@@ -12,3 +12,5 @@ Os arquivos male.glb, female.glb e catalog.json foram preservados. Modificaçõe
 O modelo feminino é uma referência adaptada, com estruturas comuns ajustadas ao corpo MakeHuman e órgãos específicos de origem HuBMAP, conforme descrito em UPSTREAM-ATTRIBUTION.md. Não representa todas as variações individuais. A coleção possui cobertura parcial e agrupamentos; não contém todos os detalhes anatômicos.
 
 Preserve também UPSTREAM-ATTRIBUTION.md e LICENSE-MODELS.md ao redistribuir.
+
+A apresentação externa foi adaptada com camiseta e shorts opacos derivados das proporções da superfície, material fosco com variação suave de cor, íris e pupilas e iluminação mais suave. As roupas em clothes-male.glb e clothes-female.glb são adaptações CC BY 4.0, reproduzíveis por scripts/bake-clothes.mjs. A cobertura acompanha as regiões para permanecer presente ao isolar e ocultar partes do corpo.

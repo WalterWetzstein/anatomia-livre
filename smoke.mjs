@@ -11,7 +11,7 @@ assert.equal(toothInfo('Mandible'),null);const modeled=manifest.bones.map(d=>too
 const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader']});
 const page=await browser.newPage({viewport:{width:1440,height:1000},hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
- await page.goto('http://localhost:5173');await page.waitForSelector('body[data-ready="face"]',{timeout:60000});await page.screenshot({path:'/tmp/head-adult-face.png'});await page.locator('[data-model="bones"]').click();await page.waitForSelector('body[data-ready="bones"]',{timeout:60000});
+ await page.goto('http://localhost:5173');await page.locator('[data-scope="head"]').click();await page.waitForSelector('body[data-ready="face"]',{timeout:60000});await page.screenshot({path:'/tmp/head-adult-face.png'});await page.locator('[data-model="bones"]').click();await page.waitForSelector('body[data-ready="bones"]',{timeout:60000});
  assert.equal(await page.locator('[data-model]').count(),4);assert.equal(await page.locator('#structure-list button').count(),56);
  await page.screenshot({path:'/tmp/head-bones.png'});
  const canvas=page.locator('canvas'),bounds=await canvas.boundingBox();
